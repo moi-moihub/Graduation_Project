@@ -1,0 +1,82 @@
+🎯 Mục tiêu:
+Nắm kiến thức cơ bản về hệ thống SOC, SIEM, log và phân tích log
+
+Thành thạo công cụ cần thiết: Python, Streamlit, Docker, GitHub
+
+Làm được mini project: Phân tích log đơn giản bằng Python và hiển thị bằng Streamlit
+
+📅 Tuần 1–2: Kiến thức về SOC và SIEM
+Nội dung	Mô tả
+🔹 SOC là gì	Vai trò, thành phần chính, hoạt động SOC
+🔹 SIEM là gì	Phân biệt với SOC, chức năng log tập trung và cảnh báo
+🔹 Hiểu log	Log hệ điều hành (auth.log, syslog), log web server (Apache/Nginx), log firewall
+📚 Tài liệu	TryHackMe: SOC Level 1, SIEM Essentials - Elastic, YouTube: "What is a SOC?"
+
+Đầu ra:
+
+Tự mô tả được kiến trúc SOC cơ bản
+
+Hiểu được dòng log là gì, các loại log phổ biến
+
+📅 Tuần 3: Python & Xử lý log
+Nội dung	Mô tả
+🔹 Python cơ bản	Đọc file, Regex, Dict, List, Xử lý JSON
+🔹 Phân tích log	Đọc file .log, tách dòng theo timestamp, IP, action…
+📚 Tài liệu	Real Python, Automate the Boring Stuff with Python, regex101.com để thử mẫu
+
+Đầu ra:
+
+Script Python đọc file log Apache và đếm số IP truy cập
+
+📅 Tuần 4: Machine Learning cơ bản
+Nội dung	Mô tả
+🔹 ML cho phân tích log	Isolation Forest, DBSCAN, PCA
+🔹 Scikit-learn	Load dữ liệu → tiền xử lý → huấn luyện mô hình
+📚 Tài liệu	Scikit-learn 101, YouTube: Anomaly Detection with Isolation Forest, Kaggle: Beginner ML
+
+Đầu ra:
+
+Một notebook đơn giản dùng Isolation Forest phát hiện dòng log bất thường
+
+📅 Tuần 5: Streamlit – Dashboard cho log
+Nội dung	Mô tả
+🔹 Cài đặt Streamlit	Hello World + giao diện đơn giản
+🔹 Tạo dashboard log	Hiển thị bảng log, biểu đồ IP, nút "lọc theo mức độ nguy hiểm"
+📚 Tài liệu	streamlit.io/docs, YouTube: "Streamlit crash course"
+
+Đầu ra:
+
+Một ứng dụng Streamlit hiển thị file log + highlight dòng nghi vấn
+
+📅 Tuần 6: Docker & GitHub
+Nội dung	Mô tả
+🔹 Docker cơ bản	Build, run container chứa app Python
+🔹 GitHub	Push code lên GitHub, tạo README.md
+📚 Tài liệu	Docker for beginners, GitHub flow, YouTube: “Dockerize Python App”
+
+Đầu ra:
+
+Repo GitHub chứa demo đầu tiên: đọc log + phân tích + dashboard Streamlit
+
+✅ Tổng kết giai đoạn 1
+Tiêu chí	Mức độ hoàn thành
+Hiểu kiến trúc SOC-SIEM	✅
+Xử lý log bằng Python	✅
+Áp dụng ML cơ bản cho log	✅
+Tạo dashboard hiển thị log	✅
+Biết sử dụng GitHub + Docker	✅
+
+📦 Bonus: Mini Project cuối giai đoạn
+Tên: simple-log-analyzer
+
+✅ Input: file log Apache mẫu (access.log)
+
+✅ Output: Streamlit dashboard hiển thị
+
+Tổng số request
+
+Các IP truy cập nhiều nhất
+
+Những dòng nghi vấn (anomaly score cao)
+
+📁 Bạn có thể tạo thư mục phase1-simple-analyzer/ trong GitHub repo đồ án để chứa project này.
