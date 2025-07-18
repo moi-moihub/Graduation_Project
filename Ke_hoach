@@ -1,0 +1,62 @@
+Giai đoạn 1 (Tháng 1–2): Nền tảng kiến thức
+Học SOC, SIEM, threat intelligence
+
+Tìm hiểu log format (syslog, Apache, auth.log…)
+
+Cơ bản AI/ML (Isolation Forest, clustering…)
+
+Làm quen Streamlit, Flask, GitHub, Docker
+
+Giai đoạn 2 (Tháng 3–4): Thiết kế hệ thống
+Phác thảo kiến trúc SOC-as-a-Service
+
+Xác định luồng log → xử lý → lưu → cảnh báo
+
+Thiết kế dashboard (UI/UX)
+
+Giai đoạn 3 (Tháng 5–6): Phát triển MVP
+Module thu thập log (qua file, API hoặc syslog)
+
+Tiền xử lý log
+
+Module phát hiện bất thường (ML)
+
+Giao diện Streamlit hiển thị log & cảnh báo
+
+Giai đoạn 4 (Tháng 7–8): Cải tiến & tích hợp
+Tích hợp tính năng gửi cảnh báo (email, Telegram…)
+
+Dashboard nâng cao (lọc log, chọn ngày, tìm kiếm…)
+
+Giao diện gửi feedback/khảo sát SMEs
+
+Viết tài liệu hướng dẫn cài đặt
+
+Giai đoạn 5 (Tháng 9–10): Hoàn thiện & kiểm thử
+Kiểm thử với log thực (dùng log mẫu public)
+
+Viết tài liệu kỹ thuật (PDF + Markdown)
+
+Tối ưu mô hình AI (thêm PCA hoặc clustering)
+
+Thử nghiệm triển khai trên máy ảo (VM hoặc Docker)
+
+Giai đoạn 6 (Tháng 11–12): Trình bày đồ án
+Làm poster, video demo
+
+Chuẩn bị slide & kịch bản bảo vệ
+
+Triển khai demo chạy thực trên GitHub / Heroku / Local
+
+5. Sản phẩm đầu ra
+✅ Mã nguồn hệ thống (GitHub public repo)
+
+✅ Giao diện dashboard demo (Streamlit)
+
+✅ Tài liệu kỹ thuật, hướng dẫn triển khai
+
+✅ Demo sử dụng AI/ML để phân tích log
+
+✅ Bài khảo sát SMEs về nhu cầu an ninh mạng
+
+✅ Báo cáo đồ án, slide thuyết trình
